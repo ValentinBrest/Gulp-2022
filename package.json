@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ValentinBrest/Gulp-2022/issues"
   },
-  "homepage": "https://github.com/ValentinBrest/Gulp-2022#readme"
+  "homepage": "https://github.com/ValentinBrest/Gulp-2022#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
