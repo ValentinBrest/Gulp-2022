@@ -1,0 +1,20 @@
+{
+  "name": "gulp-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinBrest/Gulp-2022.git"
+  },
+  "author": "Konopatski Valentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentinBrest/Gulp-2022/issues"
+  },
+  "homepage": "https://github.com/ValentinBrest/Gulp-2022#readme"
+}
