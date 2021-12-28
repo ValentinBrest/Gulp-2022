@@ -3,6 +3,7 @@ import gulp from "gulp";
 // Импорт путей
 import { path } from "./gulp/config/path.js";
 
+
 // Пердаем значения в глобальную переменную
 global.app = {
     path: path,
