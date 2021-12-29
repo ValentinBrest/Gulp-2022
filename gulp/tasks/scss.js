@@ -26,6 +26,14 @@ export const scss = () => {
             webpClass: ".webp",
             noWebpClass: ".no-webp"
         }))
+        .pipe(autoprefixer({
+            grid: true,
+            overrideBrowserlist: ["last 3 versions"],
+            cascade: true
+        }))
+        // Раскомментировать, если будет нужен несжатый дубль файла стилей
+        .pipe(app.gulp.dest(app.path.build.css))
+        .pipe(cleanCss())
         .pipe(rename({
             extname: ".min.css"
         }))
